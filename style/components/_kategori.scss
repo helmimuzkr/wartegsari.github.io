@@ -1,0 +1,24 @@
+.kategori {
+  li {
+    list-style-type: none;
+    text-decoration: none;
+  }
+  .menu-kategori {
+    font-size: 18px;
+    text-align: center;
+    color: #0c0d36;
+    font-weight: normal;
+    margin-top: 12px;
+    text-decoration: none;
+
+    &:hover {
+      color: #29a867;
+      border-bottom: 3px solid #29a867;
+    }
+  }
+
+  .active {
+    color: #29a867;
+    border-bottom: 3px solid #29a867 !important;
+  }
+}
