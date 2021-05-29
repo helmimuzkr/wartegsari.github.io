@@ -5,6 +5,19 @@
     text-decoration: none;
   }
 
+  .card {
+    border: 1px solid #f0f0f0;
+    transition: 0.4s ease;
+
+    &:hover {
+      -webkit-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.5) !important;
+      -moz-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.5) !important;
+      box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.5) !important;
+
+      transform: scale(1.05);
+    }
+  }
+
   .produk-thumbnail {
     width: 100%;
     height: 150px;
@@ -34,11 +47,11 @@
       transition: all 0.3s ease;
     }
   }
+
   .produk-teks {
     font-weight: normal;
     font-size: 18px;
     color: #0c0d36;
-    margin-top: 12px;
   }
 
   .produk-harga {
