@@ -1,4 +1,4 @@
-.menu-produk {
+.component-products {
   margin-bottom: 50px;
 
   &:hover {
@@ -18,7 +18,7 @@
     }
   }
 
-  .produk-thumbnail {
+  .products-thumbnail {
     width: 100%;
     height: 150px;
 
@@ -30,12 +30,12 @@
 
     &:hover,
     &:focus {
-      .produk-gambar {
+      .products-image {
         transform: scale(1.2, 1.2);
       }
     }
 
-    .produk-gambar {
+    .products-image {
       width: 100%;
       height: 100%;
 
@@ -48,13 +48,13 @@
     }
   }
 
-  .produk-teks {
+  .products-text {
     font-weight: normal;
     font-size: 18px;
     color: #0c0d36;
   }
 
-  .produk-harga {
+  .products-price {
     font-weight: 700;
     font-size: 16px;
     color: #0c0d36;

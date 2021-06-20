@@ -30,22 +30,22 @@
   }
 
   /* Pelayanan */
-  .pelayanan {
+  .store-services {
     margin-top: 100px;
   }
-  .pelayanan-gambar {
+  .services-image {
     width: 64px;
     height: 64px;
 
     margin: 32px 0;
   }
-  .pelayanan-tittle {
+  .services-tittle {
     font-size: 1.125rem !important;
     font-weight: bold;
 
     color: $textColor;
   }
-  .pelayanan-deskripsi {
+  .services-description {
     font-weight: normal;
 
     color: $textColor;
@@ -68,7 +68,7 @@
       font-size: 2.25rem;
     }
 
-    .pesan {
+    .order-button {
       align-items: center;
       text-align: center;
 
