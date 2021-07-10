@@ -10948,7 +10948,7 @@ p {
   margin: 32px 0;
 }
 
-.pages-home .services-tittle {
+.pages-home .services-title {
   font-size: 1.125rem !important;
   font-weight: bold;
   color: #0c0d36;
@@ -10988,13 +10988,95 @@ p {
   }
 }
 
+.page-details h4 {
+  font-weight: normal;
+  line-height: 27px;
+  margin-bottom: auto;
+  color: #0c0d36;
+}
+
+.page-details .store-gallery {
+  margin-bottom: 20px;
+}
+
+.page-details .store-gallery img {
+  border-radius: 10px;
+}
+
+.page-details .store-gallery .thumbnail-image {
+  margin-bottom: 20px;
+  border: 3px solid transparent;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.page-details .store-gallery .thumbnail-image:hover, .page-details .store-gallery .thumbnail-image.active {
+  border: 3px solid #29a867;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.page-details .store-heading {
+  margin: 0 0 10px 0;
+}
+
+.page-details .store-heading h3 {
+  font-size: 2.5rem;
+  line-height: 36px;
+  color: #0c0d36;
+  margin-bottom: 8px;
+}
+
+.page-details .store-heading .price {
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 27px;
+  color: #29a867;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 576px) {
+  .page-details .store-heading .btn {
+    width: 20%;
+  }
+}
+
+.page-details .store-description {
+  font-weight: normal;
+  line-height: 180%;
+  color: #525252;
+}
+
+.page-details .store-review .media img {
+  max-width: 3.125rem;
+}
+
+.page-details .store-review .media-body {
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 180%;
+  color: #525252;
+  margin-bottom: 16px;
+}
+
+.page-details .store-review .media-body h5 {
+  font-weight: 500;
+  line-height: 180%;
+  color: #0c0d36;
+}
+
+.page-categories h5 {
+  font-size: 1.5rem;
+}
+
 .page-categories li {
   list-style-type: none;
   text-decoration: none;
 }
 
 .page-categories .store-categories {
-  font-size: 18px;
+  font-size: 1.125rem;
   text-align: center;
   color: #0c0d36;
   font-weight: normal;
@@ -11087,5 +11169,22 @@ p {
 
 .store-breadcrumbs a {
   color: #979797;
+}
+
+.slide-fade-enter-active {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.slide-fade-leave-active {
+  -webkit-transition: all 0.1s cubic-bezier(1, 0.5, 0.8, 1);
+  transition: all 0.1s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-fade-enter,
+.slide-fade-leave-to {
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+  opacity: 0.5;
 }
 /*# sourceMappingURL=main.css.map */
